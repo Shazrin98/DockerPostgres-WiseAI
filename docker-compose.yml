@@ -17,3 +17,4 @@ services:
       - 80:80
 volumes:
   pgdata:
+    driver: local
